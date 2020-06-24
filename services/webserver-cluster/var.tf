@@ -36,6 +36,6 @@ variable "max_size" {
 
 bariable "custom_tags" {
   description = "Custom tags to set on the Instances in the ASG"
-  type        = nap(string)
+  type        = map(string)
   default     = {}
 }
